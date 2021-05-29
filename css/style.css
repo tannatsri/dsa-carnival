@@ -1825,7 +1825,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: rotateY( 80deg) translateZ(430px); 
 }
 .carousel__face:nth-child(4) { 
-  background-image: url("../images/chapter/CU.png");
+  background-image: url("../images/chapter/NITD.jpeg");
   transform: rotateY( 120deg) translateZ(430px); 
 }
 .carousel__face:nth-child(5) { 
@@ -1845,7 +1845,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: rotateY( 280deg) translateZ(430px); 
 }
 .carousel__face:nth-child(9) { 
-  background-image: url("../images/chapter/NITD.jpeg");
+  background-image: url("../images/chapter/CU.png");
   transform: rotateY( 320deg) translateZ(430px); 
 }
 .carousel__face:nth-child(10) { 
