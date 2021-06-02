@@ -1806,6 +1806,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: flex;
 }
 
+
 .sas {
   margin: auto;
   font-size: 2rem;
@@ -1869,3 +1870,69 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+
+@media  screen and (max-width:500px) {
+
+  .cardss {
+    margin:0px auto;
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width:auto;
+  }
+  .containerss{
+    width:100% !important;
+    margin:0px auto;
+  }
+  .carousel__face{
+    width:150px;
+    height:150px;
+  } 
+
+  
+.carousel__face:nth-child(1) {
+  background-image: url("../images/chapter/ADGITM.png");
+  transform: rotateY(  0deg) translateZ(200px); 
+}
+.carousel__face:nth-child(2) { 
+  background-image: url("../images/chapter/ABESEC.png");
+  transform: rotateY( 40deg) translateZ(200px); 
+}
+.carousel__face:nth-child(3) { 
+  background-image: url("../images/chapter/CodeChef\ IIST\ Chapter\ Logo.png");
+  transform: rotateY( 80deg) translateZ(200px); 
+}
+.carousel__face:nth-child(4) { 
+  background-image: url("../images/chapter/NITD.jpeg");
+  transform: rotateY( 120deg) translateZ(200px); 
+}
+.carousel__face:nth-child(5) { 
+  background-image: url("../images/chapter/DYPIU.png");
+  transform: rotateY( 160deg) translateZ(200px); 
+}
+.carousel__face:nth-child(6) { 
+  background-image: url("../images/chapter/GEC-Rajkot.png");
+  transform: rotateY( 200deg) translateZ(200px); 
+}
+.carousel__face:nth-child(7) { 
+  background-image: url("../images/chapter/RVCE.png");
+  transform: rotateY( 240deg) translateZ(200px); 
+}
+.carousel__face:nth-child(8) { 
+  background-image: url("../images/chapter/JUIT.png");
+  transform: rotateY( 280deg) translateZ(200px); 
+}
+.carousel__face:nth-child(9) { 
+  background-image: url("../images/chapter/CU.png");
+  transform: rotateY( 320deg) translateZ(200px); 
+}
+.carousel__face:nth-child(10) { 
+  background-image: url("../images/chapter/PUP.png");
+  transform: rotateY( 360deg) translateZ(200px); 
+}
+
+
+}
