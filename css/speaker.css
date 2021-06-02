@@ -1,0 +1,107 @@
+/* ============================================================================================================****************************************Speaker Section****************************************************
+============================================================================================================*/
+*{
+  margin-bottom: 0;
+  padding: 0;
+}
+.speakers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url(images/bg2.jpg); */
+
+  /* transition: 0.3s ease-in-out; */
+  background: #353535;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  /* padding: 40px;
+  padding-left: 110px;
+  margin-left: 210px; */
+}
+
+.contain1{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.contain1 .card{
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #353535;
+  margin: 30px 20px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.contain1 .card:hover{
+  height: 420px;
+}
+.contain1 .card .imgBox{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: -60px;
+  left: 5px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.contain1 .card .imgBox img{
+  max-width: 100%;
+  border-radius: 4px;
+
+
+}
+
+.contain1 .card .speaker-details{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgba(255,255,255, 0.7);
+  /* backdrop-filter: blur(10px); */
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.contain1 .card .speaker-details h2{
+  color: rgba(255,255,255, 0.7);
+}
+
+
+.contain1 .card:hover .speaker-details{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.5s;
+}
+
+
+
+.icon i .fa
+{
+  font-size: 60px;
+  transform:scale(0.6);
+  transition: 0.5s;
+}
+.icon i:hover .fa{
+    transform: scale(0.6) rotate(360deg);
+}
